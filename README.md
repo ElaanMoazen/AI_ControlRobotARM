@@ -17,12 +17,13 @@ https://www.virtualbox.org/wiki/Downloads
 https://releases.ubuntu.com/16.04/
 ```
 
-* ### صفحة أوامر الذراع الآلية
-https://s-m.com.sa/ros.txt
-
 
 # First
-أولاً: تثبيت نظام الروز على ابنتو باستخدام الاأوامر التالية:
+أولاً: تثبيت نظام الروز على ابنتو باستخدام الأوامر التالية:
+* ### صفحة أوامر الذراع الآلية
+```
+https://s-m.com.sa/ros.txt
+```
 ```
 $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
