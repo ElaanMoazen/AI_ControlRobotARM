@@ -14,9 +14,10 @@ https://www.virtualbox.org/wiki/Downloads
 https://releases.ubuntu.com/16.04/
 
 
-### ملاحظة: من المهم حفظ كلمة المرور و اسم المستخدم اللذان سيتم ادخلاهم
+```
+```
 
-صفحة أوامر الذراع الآلية
+* ### صفحة أوامر الذراع الآلية
 https://s-m.com.sa/ros.txt
 
 
@@ -75,3 +76,14 @@ $ sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control
 
 $ sudo nano ~/.bashrc
 ```
+
+
+
+![image](https://user-images.githubusercontent.com/86114919/125003372-bfd73880-e05f-11eb-9007-6ead9918e109.png)
+
+
+
+
+
+
+
