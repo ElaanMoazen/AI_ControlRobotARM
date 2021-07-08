@@ -1,17 +1,24 @@
-# MOVE-THE-ARM_AI-PART
+# Control Robot Arm - AI PART
 
-لإستعلام نظام رزو في التحكم بحركة الذراع نحتاج إلى تثبيت متصفح افتراضي ثم تنزيل نظام ابونتو 
-وذلك سيتم بعدة أوامر متسلسلة 
+لإستعلام نظام روز في التحكم بحركة الذراع نحتاج أولاً لتثبيت برنامج - virtual Box 
+ثانيًا تثبيت نظام ابونتو على البرنامج الذي قمنا بتثبيته مسبقًا - Ubuntu 16.04 
 
-رابط تحميل Virtual Box
+
+
+# رابط تحميل Virtual Box
 https://www.virtualbox.org/wiki/Downloads
 
+# رابط تحميل Ubuntu 16.04
+https://releases.ubuntu.com/16.04/
+
+
+# ملاحظة: من المهم حفظ كلمة المرور و اسم المستخدم اللذان سيتم ادخلاهم
 
 صفحة أوامر الذراع الآلية
 https://s-m.com.sa/ros.txt
 
 
-#First
+# First
 أولاً: تثبيت نظام الروز على ابنتو باستخدام الاأوامر التالية:
 
 $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -20,7 +27,7 @@ $ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E
 
 $ sudo apt-get update
 
-#Second
+# Second
 ثانيًا: أوامر لتثبيت الروز (إصدار كاينتك):
 
 $ sudo apt-get install ros-kinetic-desktop-full
@@ -30,7 +37,7 @@ $ apt-cache search ros-kinetic
 $ echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
-#Third
+# Third
 ثالثًا: أوامر لتثبيت لغة بايثون:
 
 $ sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
@@ -48,7 +55,7 @@ $ mkdir -p ~/catkin_ws/src
 $ cd ~/catkin_ws/
 
 
-#Fourth
+# Fourth
 :رابعًا: تنظيم انزال بكج الذراع 
 
 $ rosdep install --from-paths src --ignore-src -r -y
