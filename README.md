@@ -6,10 +6,10 @@
 
 
 
-## رابط تحميل Virtual Box
+### رابط تحميل Virtual Box
 https://www.virtualbox.org/wiki/Downloads
 
-## رابط تحميل Ubuntu 16.04
+### رابط تحميل Ubuntu 16.04
 https://releases.ubuntu.com/16.04/
 
 
@@ -19,7 +19,7 @@ https://releases.ubuntu.com/16.04/
 https://s-m.com.sa/ros.txt
 
 
-## First
+# First
 أولاً: تثبيت نظام الروز على ابنتو باستخدام الاأوامر التالية:
 ```
 $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -29,7 +29,7 @@ $ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E
 $ sudo apt-get update
 ```
 
-## Second
+# Second
 ثانيًا: أوامر لتثبيت الروز (إصدار كاينتك):
 ```
 $ sudo apt-get install ros-kinetic-desktop-full
