@@ -80,7 +80,7 @@ $ sudo nano ~/.bashrc
 
 
 
-![image](https://user-images.githubusercontent.com/86114919/125003372-bfd73880-e05f-11eb-9007-6ead9918e109.png)
+![1](https://user-images.githubusercontent.com/86114919/125003372-bfd73880-e05f-11eb-9007-6ead9918e109.png)
 
 
 
