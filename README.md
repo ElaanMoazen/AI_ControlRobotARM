@@ -79,8 +79,7 @@ $ sudo nano ~/.bashrc
 ```
 
 
-
-![1](https://user-images.githubusercontent.com/86114919/125003372-bfd73880-e05f-11eb-9007-6ead9918e109.png)
+![image](https://user-images.githubusercontent.com/86114919/125004009-31fc4d00-e061-11eb-93e5-aed9cd5024ab.png)
 
 
 
